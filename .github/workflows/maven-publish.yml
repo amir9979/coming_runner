@@ -44,16 +44,21 @@ jobs:
       run: git fetch
       working-directory: ./my-tools
 
+    - name: out_dir
+      run: mkdir out_dir
+
     - name: execute
-      run: java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\ep_9.xml -output c_out
+      run: |
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\ep_9.xml -output out_dir\ep_9
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\ep_8.xml -output out_dir\ep_8
 
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v2
       with:
         # Artifact name
-        name: ep_9.json
+        name: out_dir
         # A file, directory or wildcard pattern that describes what to upload
-        path: c_out\all_instances_found.json
+        path: out_dir
 
 
     - name: Close Issue
