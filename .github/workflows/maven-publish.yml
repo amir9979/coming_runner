@@ -49,8 +49,72 @@ jobs:
 
     - name: execute
       run: |
-        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\ep_9.xml -output out_dir\ep_9
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\add_rtrn.xml -output out_dir\add_rtrn
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\any_statement_d.xml -output out_dir\any_statement_d
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\any_statement_s.xml -output out_dir\any_statement_s
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\arja_deep_change.xml -output out_dir\arja_deep_change
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\arja_ins_del.xml -output out_dir\arja_ins_del
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\arja_shallow_change.xml -output out_dir\arja_shallow_change
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\binary.xml -output out_dir\binary
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\del.xml -output out_dir\del
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\ep_1.xml -output out_dir\ep_1
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\ep_10.xml -output out_dir\ep_10
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\ep_11.xml -output out_dir\ep_11
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\ep_12.xml -output out_dir\ep_12
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\ep_2.xml -output out_dir\ep_2
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\ep_3.xml -output out_dir\ep_3
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\ep_4.xml -output out_dir\ep_4
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\ep_5.xml -output out_dir\ep_5
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\ep_6.xml -output out_dir\ep_6
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\ep_7.xml -output out_dir\ep_7
         java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\ep_8.xml -output out_dir\ep_8
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\ep_9.xml -output out_dir\ep_9
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\expression_insertion_deep.xml -output out_dir\expression_insertion_deep
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\expression_replacement.xml -output out_dir\expression_replacement
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\expression_replacement_by_del_ins.xml -output out_dir\expression_replacement_by_del_ins
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\expression_replacement_by_del_mov.xml -output out_dir\expression_replacement_by_del_mov
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\expression_replacement_by_upd.xml -output out_dir\expression_replacement_by_upd
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\false.xml -output out_dir\false
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\if_ins_d.xml -output out_dir\if_ins_d
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\if_ins_s.xml -output out_dir\if_ins_s
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\if_upd_d.xml -output out_dir\if_upd_d
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\if_upd_s.xml -output out_dir\if_upd_s
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\npefix_global_replace.xml -output out_dir\npefix_global_replace
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\npefix_local_replace.xml -output out_dir\npefix_local_replace
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\npefix_s4.xml -output out_dir\npefix_s4
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\npefix_skip.xml -output out_dir\npefix_skip
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\pattern_DEL_IF_RET.xml -output out_dir\pattern_DEL_IF_RET
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\pattern_DEL_IF_THR.xml -output out_dir\pattern_DEL_IF_THR
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\pattern_DEL_Parameter.xml -output out_dir\pattern_DEL_Parameter
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\pattern_IF_APC.xml -output out_dir\pattern_IF_APC
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\pattern_IF_CC.xml -output out_dir\pattern_IF_CC
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\pattern_INS_2TypeRef.xml -output out_dir\pattern_INS_2TypeRef
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\pattern_INS_IF_BRK.xml -output out_dir\pattern_INS_IF_BRK
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\pattern_INS_IF_INS_ASSIG.xml -output out_dir\pattern_INS_IF_INS_ASSIG
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\pattern_INS_IF_MOVE_ASSIG.xml -output out_dir\pattern_INS_IF_MOVE_ASSIG
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\pattern_INS_IF_RET.xml -output out_dir\pattern_INS_IF_RET
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\pattern_INS_IF_RET_Value.xml -output out_dir\pattern_INS_IF_RET_Value
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\pattern_INS_IF_THR.xml -output out_dir\pattern_INS_IF_THR
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\pattern_INS_IF_X2.xml -output out_dir\pattern_INS_IF_X2
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\pattern_INS_Parameter.xml -output out_dir\pattern_INS_Parameter
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\pattern_INS_X2.xml -output out_dir\pattern_INS_X2
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\pattern_MC_DAP.xml -output out_dir\pattern_MC_DAP
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\pattern_modif_if.xml -output out_dir\pattern_modif_if
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\pattern_modif_if2.xml -output out_dir\pattern_modif_if2
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\pattern_modif_if2_role.xml -output out_dir\pattern_modif_if2_role
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\pattern_modif_if_noname.xml -output out_dir\pattern_modif_if_noname
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\pattern_modif_if_role.xml -output out_dir\pattern_modif_if_role
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\pattern_MOV_IF_RET.xml -output out_dir\pattern_MOV_IF_RET
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\pattern_test_1_INS_INV.xml -output out_dir\pattern_test_1_INS_INV
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\pattern_test_2_INS_INV_PARENT.xml -output out_dir\pattern_test_2_INS_INV_PARENT
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\pattern_test_3_INS_INV_PARENT2.xml -output out_dir\pattern_test_3_INS_INV_PARENT2
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\pattern_test_4_2_Actions.xml -output out_dir\pattern_test_4_2_Actions
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\pattern_test_5_1_Actions2.xml -output out_dir\pattern_test_5_1_Actions2
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\pattern_test_5_2_Actions2.xml -output out_dir\pattern_test_5_2_Actions2
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\pattern_test_5_3_Actions2_wrong.xml -output out_dir\pattern_test_5_3_Actions2_wrong
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\pattern_test_6_two_upd_if.xml -output out_dir\pattern_test_6_two_upd_if
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\true.xml -output out_dir\true
+        java -cp target\coming-0-SNAPSHOT-jar-with-dependencies.jar  fr.inria.coming.main.ComingMain -location my-tools -mode mineinstance -pattern patterns\unary.xml -output out_dir\unary
 
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v2
